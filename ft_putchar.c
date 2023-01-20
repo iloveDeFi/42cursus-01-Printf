@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:17:48 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:17:49 by baptistebes      ###   ########.fr       */
+/*   Created: 2022/11/02 20:31:22 by polpi             #+#    #+#             */
+/*   Updated: 2023/01/20 18:25:08 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

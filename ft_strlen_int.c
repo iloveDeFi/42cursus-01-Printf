@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen_int.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:18:03 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:18:04 by baptistebes      ###   ########.fr       */
+/*   Created: 2022/11/11 15:46:48 by afaucher          #+#    #+#             */
+/*   Updated: 2023/01/20 18:25:16 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

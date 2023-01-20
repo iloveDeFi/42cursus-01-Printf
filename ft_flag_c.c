@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_flag_c.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:16:22 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:17:17 by baptistebes      ###   ########.fr       */
+/*   Created: 2022/11/15 12:49:17 by polpi             #+#    #+#             */
+/*   Updated: 2023/01/20 18:24:58 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int ft_flag_c(int c)
+int	ft_flag_c(int c)
 {
 	ft_putchar(c);
 	return (1);

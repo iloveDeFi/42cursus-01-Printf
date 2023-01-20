@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:17:52 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:17:53 by baptistebes      ###   ########.fr       */
+/*   Created: 2022/11/02 20:57:18 by polpi             #+#    #+#             */
+/*   Updated: 2023/01/20 18:25:13 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

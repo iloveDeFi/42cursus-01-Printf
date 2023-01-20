@@ -3,18 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_convert_base.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:15:45 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:17:06 by baptistebes      ###   ########.fr       */
+/*   Created: 2023/01/20 18:20:17 by bbessard          #+#    #+#             */
+/*   Updated: 2023/01/20 18:24:47 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "ft_printf.h"
 
-static int ft_strlen_unsigned_int(unsigned int nbr)
+static int	ft_strlen_unsigned_int(unsigned int nbr)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (nbr == 0)
@@ -27,14 +28,14 @@ static int ft_strlen_unsigned_int(unsigned int nbr)
 	return (i);
 }
 
-void ft_putchar_hexa(unsigned int c, char *str)
+void	ft_putchar_hexa(unsigned int c, char *str)
 {
-	write(1, &str[c], 1);
+	write (1, &str[c], 1);
 }
 
-int ft_convert_base(unsigned int nbr, char *str)
+int	ft_convert_base(unsigned int nbr, char *str)
 {
-	int len;
+	int	len;
 
 	len = 0;
 	if (nbr > 15)

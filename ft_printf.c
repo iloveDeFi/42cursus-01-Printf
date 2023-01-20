@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:17:35 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:17:38 by baptistebes      ###   ########.fr       */
+/*   Created: 2022/11/06 11:45:58 by polpi             #+#    #+#             */
+/*   Updated: 2023/01/20 18:25:07 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,8 @@ int	ft_printf(const char *s, ...)
 	return (len);
 }
 
-//-------------TEST %c----------------
-/*
-int	main(int argc, char **argv)
+
+/*int	main(int argc, char **argv)
 {
 	(void)argc;
 	(void)argv;
@@ -67,7 +66,7 @@ int	main(int argc, char **argv)
 	printf("\n%s\n", "------PRINTF------");
 	printf("\n%d", printf(" %c %c %c ", 'w', 'a', 'b'));
 }
-*/
+
 /*
 int	main(int argc, char **argv)
 {

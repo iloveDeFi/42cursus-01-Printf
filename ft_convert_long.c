@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_convert_long.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:16:10 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:17:09 by baptistebes      ###   ########.fr       */
+/*   Created: 2022/11/17 10:46:12 by afaucher          #+#    #+#             */
+/*   Updated: 2023/01/20 18:24:53 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static int ft_strlen_unsigned_int(unsigned long nbr)
+static int	ft_strlen_unsigned_int(unsigned long nbr)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	if (nbr == 0)
@@ -27,14 +27,14 @@ static int ft_strlen_unsigned_int(unsigned long nbr)
 	return (i);
 }
 
-static void ft_putchar_hexa(unsigned long c, char *str)
+static void	ft_putchar_hexa(unsigned long c, char *str)
 {
-	write(1, &str[c], 1);
+	write (1, &str[c], 1);
 }
 
-int ft_convert_hexa(unsigned long nbr, char *str)
+int	ft_convert_hexa(unsigned long nbr, char *str)
 {
-	int len;
+	int	len;
 
 	len = 0;
 	if (nbr > 15)
@@ -44,12 +44,12 @@ int ft_convert_hexa(unsigned long nbr, char *str)
 	return (len);
 }
 
-int ft_convert_long(unsigned long nbr, char *str)
+int	ft_convert_long(unsigned long nbr, char *str)
 {
-	int len;
+	int	len;
 
 	len = 2;
-	write(1, "0x", 2);
+	write (1, "0x", 2);
 	len += ft_convert_hexa(nbr, str);
 	return (len);
 }

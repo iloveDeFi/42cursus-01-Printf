@@ -5,16 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:17:42 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/14 17:15:24 by bbessard         ###   ########.fr       */
+/*   Created: 2022/11/06 11:46:01 by polpi             #+#    #+#             */
+/*   Updated: 2023/01/20 18:25:12 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/*
-h c'est le diminutif de header (en-tête).
-Un fichier header on define le prototype des fonctions. 
-On defini aussi les types personnalisés, les structures et les classes.
-*/
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H

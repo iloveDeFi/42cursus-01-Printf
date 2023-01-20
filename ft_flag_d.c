@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_flag_d.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: baptistebessard <baptistebessard@studen    +#+  +:+       +#+        */
+/*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 17:16:35 by baptistebes       #+#    #+#             */
-/*   Updated: 2022/12/07 17:16:39 by baptistebes      ###   ########.fr       */
+/*   Created: 2022/11/06 16:56:43 by polpi             #+#    #+#             */
+/*   Updated: 2023/01/20 18:25:05 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
