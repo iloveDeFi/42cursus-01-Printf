@@ -6,7 +6,7 @@
 /*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 11:45:58 by bbessard          #+#    #+#             */
-/*   Updated: 2023/01/30 14:25:01 by bbessard         ###   ########.fr       */
+/*   Updated: 2023/01/30 14:32:09 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int	ft_printf(const char *s, ...)
 	return (len);
 }
 
-
+/*
 int	main(int argc, char **argv)
 {
 	(void)argc;
@@ -66,7 +66,7 @@ int	main(int argc, char **argv)
 	printf("\n%s\n", "------PRINTF------");
 	printf("\n%d", printf(" %c %c %c ", 'w', 'a', 'b'));
 }
-
+*/
 
 /*
 int	main(int argc, char **argv)
