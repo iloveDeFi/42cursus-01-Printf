@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: bbessard <bbessard@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/06 11:45:58 by polpi             #+#    #+#             */
-/*   Updated: 2023/01/20 18:25:07 by bbessard         ###   ########.fr       */
+/*   Created: 2022/11/06 11:45:58 by bbessard          #+#    #+#             */
+/*   Updated: 2023/01/30 14:25:01 by bbessard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ int	ft_printf(const char *s, ...)
 }
 
 
-/*int	main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	(void)argc;
 	(void)argv;
@@ -66,6 +66,7 @@ int	ft_printf(const char *s, ...)
 	printf("\n%s\n", "------PRINTF------");
 	printf("\n%d", printf(" %c %c %c ", 'w', 'a', 'b'));
 }
+
 
 /*
 int	main(int argc, char **argv)
@@ -78,6 +79,7 @@ int	main(int argc, char **argv)
 	printf("\n%d", printf(" NULL %s NULL ", NULL));
 }
 */
+
 /*
 int	main(int argc, char **argv)
 {
@@ -89,6 +91,7 @@ int	main(int argc, char **argv)
 	printf("\n%d", printf("%u", 0));
 }
 */
+
 /*
 int	main(int argc, char **argv)
 {
@@ -100,6 +103,7 @@ int	main(int argc, char **argv)
 	printf("\n%d", printf(" %% "));
 }
 */
+
 /*
 int	main(int argc, char **argv)
 {
@@ -111,6 +115,7 @@ int	main(int argc, char **argv)
 	printf("\n%d", printf(" %d ", 0));
 }
 */
+
 /*
 int	main(int argc, char **argv)
 {
@@ -122,6 +127,7 @@ int	main(int argc, char **argv)
 	printf("\n%d", printf(" %x ", 127));
 }
 */
+
 /*
 int	main(int argc, char **argv)
 {
